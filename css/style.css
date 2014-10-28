@@ -125,6 +125,16 @@ body {
 	margin-left:-10px;
 	
 }
+@media only screen
+and (max-width: 1231px) {
+	
+#roundedbox p{
+	
+margin-left:203%;	
+}	
+	
+}
+
 
 @media only screen
 and (max-width: 1024px) {
