@@ -1,0 +1,224 @@
+
+body {
+		line-height:1.4em;
+	
+	
+	
+	
+	
+}
+
+#img {
+	background-image:url(../images/Fruit-juice-014.jpg);
+	background-position:cover;
+	background-repeat:no-repeat;
+	width:100%;
+	height:3000px;
+	z-index:-1;
+	position:fixed;
+	top:0;
+	left:0;
+}
+
+#nav {
+	opacity:.9;
+	width: 100%;
+	height: 45px;
+	top: 0px;
+	left: 0px;
+	position: fixed;
+	z-index: 3;
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	font-weight: bold;
+	font-size: 15px;
+	text-align: center;
+	background-color: orange;
+	color:white;
+}
+
+#nav li {
+	display: inline-block;
+	padding:15px;
+	
+}
+
+#nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+
+
+
+
+#content {
+	text-align:center;
+	margin-left:-10px;
+	background-color:#83c366;
+	z-index:2px;
+	margin-top:600px;
+	width:101.5%;
+	height:400px;
+	
+	
+	
+	
+}
+
+#content p {
+	margin-left:10%;
+	width:80%;
+	text-align:center;
+	color:black;
+	line-height: 2em;
+	color:white;
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	
+}
+
+#content h2 {
+	padding-top:30px;
+	line-height: 1.4em;
+	color:white;
+	font-size: 2em;
+}
+
+
+#roundedbox {
+	margin-top:-110px;
+	z-index:2;
+	position:absolute;
+}
+
+#roundedbox p {
+	text-align:center;
+	color:white;
+	background-color:orange;
+	border-radius:4px;
+	width:100%;
+	padding:20px;
+	margin-left:245%;
+	
+	
+	
+	
+}
+
+#img_2 {
+	
+	
+	position:absolute;
+	margin-top:-60px;
+	width:101%;
+	margin-left:-10px;
+}
+
+#footer {
+	margin-top:800px;
+	z-index:1;
+	position:absolute;
+	height:250px;
+	background-color:#b0b9ab;
+	width:101.5%;
+	margin-left:-10px;
+	
+}
+
+@media only screen
+and (max-width: 1024px) {
+#content {
+	width:102%;
+}
+#roundedbox p{
+	
+margin-left:163%;	
+}
+
+
+}
+
+@media only screen
+and (max-width: 768px) {
+	
+#content {
+	height:500px;
+	width:103%;
+}
+
+#roundedbox p{
+	
+margin-left:110%;	
+
+}
+
+
+	
+	
+	
+}
+
+@media only screen
+and (max-width: 400px) {
+	
+body {
+	background-color:#ffc701;
+}
+	
+#roundedbox {
+	margin-top: -100px;
+	
+
+	
+}
+
+#content {
+	margin-top: 280px;
+	height: 380px;
+	width:405px;
+	
+}
+
+#content h2 {
+	font-size:1em;
+}
+
+#content p {
+	font-size: .75em;
+}
+
+#roundedbox p {
+	margin-left:55%;
+	font-size:.88em;
+	width:100%;
+	padding:8px;
+	
+}
+
+ul {
+	font-size:.75em;
+	
+}
+#img {
+	margin-top:45px;
+background-image:url(../images/Fruit-juice-014_400.jpg);
+	background-position:cover;
+	background-repeat:no-repeat;
+	width:100%;
+	height:3000px;
+	z-index:-1;
+	position:fixed;
+	top:0;
+	left:0;
+}
+
+img {
+	width:100%;
+}
+
+	
+	
+}
+	
+}
